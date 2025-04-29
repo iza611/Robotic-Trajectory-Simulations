@@ -1,0 +1,12 @@
+ <launch>
+    <!--This launch file starts five nodes: 
+    'generator', 'planner', 'computer', 'plotter' from the ar_week5_test package
+    and 'rqt_plot' from the rqt_plot package-->
+
+    <node pkg="ar_week5_test" name="generator" type="points_generator.py"/>
+    <node pkg="ar_week5_test" name="planner" type="cubic_traj_planner.py"/>
+    <node pkg="ar_week5_test" name="computer" type="compute_cubic_coeffs.py"/>
+    <node pkg="ar_week5_test" name="plotter" type="plot_cubic_traj.py"/>
+    <node pkg="rqt_plot" name="rqt_plot" type="rqt_plot"/>
+
+</launch>

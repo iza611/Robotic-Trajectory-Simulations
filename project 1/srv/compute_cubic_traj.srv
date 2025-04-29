@@ -1,0 +1,26 @@
+# INPUT
+
+# Initial position
+float64 p0
+# Final position
+float64 pf
+
+# Initial velocity
+float64 v0
+# Final velocity
+float64 vf
+
+# Initial time
+float64 t0
+# Final time
+float64 tf
+
+---
+
+# OUTPUT 
+
+# Four coefficients of cubic polynomial trajectory
+float64 a0
+float64 a1
+float64 a2
+float64 a3
