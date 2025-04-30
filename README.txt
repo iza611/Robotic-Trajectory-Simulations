@@ -1,7 +1,7 @@
 Steps to run the package:
 0) Follow the instructions on http://docs.ros.org/en/melodic/api/moveit_tutorials/html/doc/getting_started/getting_started.html to download the required packages 'moveit_tutorials' and 'panda_moveit_config'.
-1) Download 'project 1' and/or 'project 2'
-2) Place the folder 'project 1' / 'project 2' inside directory ~/your_ws/src (replace 'your_ws' with desired catkin workspace)
+1) Download 'project 1' or 'project 2' and copy the content into new folder ar_week5_test (for project 1) or ar_week10_test (for project 2)
+2) Place the ar_week5_test / ar_week10_test folder inside directory ~/your_ws/src (replace 'your_ws' with desired catkin workspace)
 3) Open a terminal and run command:  cd ~/your_ws/  
 4) Run command:  catkin_make
 5) Once completed, run command:  roscore
